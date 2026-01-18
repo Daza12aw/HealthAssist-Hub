@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Healthcare Support - NGO Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏥 Mini Healthcare Support</h1>
+            <p class="subtitle">Connecting volunteers with those who need healthcare assistance</p>
+        </header>
+
+        <nav class="nav-menu">
+            <a href="#patient-form" class="nav-link active" onclick="showForm('patient')">Patient Registration</a>
+            <a href="#volunteer-form" class="nav-link" onclick="showForm('volunteer')">Volunteer Registration</a>
+            <a href="chatbot.html" class="nav-link">AI Assistant 🤖</a>
+        </nav>
+
+        <!-- Patient Registration Form -->
+        <div id="patient-form" class="form-section">
+            <h2>Patient Support Registration</h2>
+            <form id="patientForm" onsubmit="submitForm(event, 'patient')">
+                <div class="form-group">
+                    <label for="p-name">Full Name *</label>
+                    <input type="text" id="p-name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="p-email">Email *</label>
+                    <input type="email" id="p-email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="p-phone">Phone Number *</label>
+                    <input type="tel" id="p-phone" name="phone" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="p-condition">Health Condition/Concern *</label>
+                    <textarea id="p-condition" name="condition" rows="4" placeholder="Please describe your health concern..." required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="p-location">Location/Address *</label>
+                    <input type="text" id="p-location" name="location" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="p-urgency">Urgency Level *</label>
+                    <select id="p-urgency" name="urgency" required>
+                        <option value="">Select Urgency...</option>
+                        <option value="low">Low - General Support</option>
+                        <option value="medium">Medium - Needs Attention</option>
+                        <option value="high">High - Urgent Help Needed</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Register for Support</button>
+            </form>
+        </div>
+
+        <!-- Volunteer Registration Form -->
+        <div id="volunteer-form" class="form-section hidden">
+            <h2>Volunteer Registration</h2>
+            <form id="volunteerForm" onsubmit="submitForm(event, 'volunteer')">
+                <div class="form-group">
+                    <label for="v-name">Full Name *</label>
+                    <input type="text" id="v-name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="v-email">Email *</label>
+                    <input type="email" id="v-email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="v-phone">Phone Number *</label>
+                    <input type="tel" id="v-phone" name="phone" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="v-skills">Healthcare Skills/Experience *</label>
+                    <textarea id="v-skills" name="skills" rows="4" placeholder="Describe your medical background, certifications, or experience..." required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="v-availability">Availability *</label>
+                    <select id="v-availability" name="availability" required>
+                        <option value="">Select Availability...</option>
+                        <option value="weekdays">Weekdays</option>
+                        <option value="weekends">Weekends</option>
+                        <option value="flexible">Flexible</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="v-specialization">Areas of Support</label>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="specialization" value="mental"> Mental Health</label>
+                        <label><input type="checkbox" name="specialization" value="elderly"> Elderly Care</label>
+                        <label><input type="checkbox" name="specialization" value="chronic"> Chronic Disease</label>
+                        <label><input type="checkbox" name="specialization" value="rehabilitation"> Rehabilitation</label>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Register as Volunteer</button>
+            </form>
+        </div>
+
+        <!-- Success Message -->
+        <div id="success-message" class="success-message hidden">
+            <h3>✅ Registration Successful!</h3>
+            <p id="success-text"></p>
+            <button onclick="resetForm()" class="btn btn-secondary">Register Another</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Mini Healthcare Support NGO | Connecting Care With Community</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

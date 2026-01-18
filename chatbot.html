@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare AI Assistant - Mini Healthcare Support</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🤖 Healthcare AI Assistant</h1>
+            <p class="subtitle">Get instant answers to common healthcare questions</p>
+        </header>
+
+        <nav class="nav-menu">
+            <a href="index.html" class="nav-link">← Back to Home</a>
+        </nav>
+
+        <div class="chatbot-section">
+            <div class="chatbot-container">
+                <div id="chat-messages" class="chat-messages">
+                    <div class="message bot-message">
+                        <p>👋 Hello! I'm your Healthcare AI Assistant. I can help you with common healthcare questions and connect you to resources. What would you like to know?</p>
+                    </div>
+                </div>
+
+                <div class="chat-input-area">
+                    <div class="quick-questions">
+                        <p><strong>Quick Questions:</strong></p>
+                        <button class="quick-btn" onclick="sendMessage('What are common cold symptoms?')">Cold Symptoms</button>
+                        <button class="quick-btn" onclick="sendMessage('How can I manage stress?')">Manage Stress</button>
+                        <button class="quick-btn" onclick="sendMessage('When should I see a doctor?')">When to See Doctor</button>
+                        <button class="quick-btn" onclick="sendMessage('How to prevent common diseases?')">Disease Prevention</button>
+                    </div>
+
+                    <div class="chat-input">
+                        <input type="text" id="user-input" placeholder="Type your healthcare question..." onkeypress="handleEnter(event)">
+                        <button onclick="sendMessage()" class="btn btn-primary">Send</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="chatbot-info">
+                <h3>About This AI Assistant</h3>
+                <ul>
+                    <li>✓ Provides FAQ-based healthcare information</li>
+                    <li>✓ Offers guidance on common health concerns</li>
+                    <li>✓ Suggests when to seek professional help</li>
+                    <li>✓ Connects patients with volunteer support</li>
+                </ul>
+                <p><em>Note: This is not a substitute for professional medical advice. Always consult a healthcare provider for serious conditions.</em></p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Mini Healthcare Support NGO | AI-Powered Community Healthcare</p>
+    </footer>
+
+    <script src="chatbot.js"></script>
+</body>
+</html>
